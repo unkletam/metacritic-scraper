@@ -127,11 +127,12 @@ df.head()'''
 
 #df['Name'].iloc[-1]
 
-count = 4775
-for i in base_df['URL'][4775:]:
+count = 0
+for i in base_df['URL'][0:]:
     df = df.append(scrappy(base_url = str(i)))
     count+=1
     print(count)
+
 print(count)
 df.tail()
 
