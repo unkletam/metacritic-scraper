@@ -26,4 +26,4 @@ for i in base_df['URL'][0:]: <-- replace the '0' with same number as count.
     print(count)
 ```
 I'm trying to mitigate all possible errors that could surface, since certain games have a very different HTML composition.
-![Code Snippet](assets/1.png)
+![Code Snippet](Assets/1.png)
